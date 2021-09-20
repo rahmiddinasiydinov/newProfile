@@ -96,3 +96,13 @@ textarea{
     margin-bottom: 30px;
 }
 
+@media screen and (max-width: 600px) {
+ .profile__form{
+     max-width: 90%;
+ }   
+ .profile{
+     width: 90%;
+     margin:auto;
+ }
+    
+}
