@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(3,35,246);
+    background-color: linear-gradient(45deg, rgba(3,35,246,1) 0%, rgba(0,7,128,1) 100%);
+}
+.profile__form{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    margin: auto;;
+    margin-top: 5%;
+}
+label{
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+input{
+    font-size: 20px;
+    padding: 5px;
+    line-height: 1.5;
+    border-radius: 50px;
+    border-color: transparent;
+}
+.user__gender{
+    font-size: 20px;
+    padding: 5px;
+    line-height: 1.5;
+    border-radius: 50px;
+    border-color: transparent;
+}
+.submit{
+    margin: auto;
+    margin-top: 20px;
+    color: #fff;
+    padding: 15px 50px;
+    font-size: 20px;
+    width:160px;
+    background-color: #4de810;
+    border: 2px solid transparent;
+    border-radius:20px;
+    margin-bottom: 20px;
+}
+textarea{
+    border-radius: 20px;
+    font-size: 20px;
+    line-height: 1.5;
+    padding: 5px;
+}
+.submit:hover{
+    background-color: #10e829;
+    box-shadow: 0 0 20px  0 #fff;
+    transition: .3s;
+}
+.profile{
+    width:500px;
+    background-color: #b9e810;
+    padding:10px;
+}
+.profile__header{
+    font-size:32px;
+    margin: 0;
+    color:#120345;
+}
+.profile__job{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    color:#120345;
+    opacity: .7;
+    font-size: 25px;
+    font-weight: 600;
+    display: block;
+}
+.profile__age{
+    margin-top: 15px;
+    color:#120345;
+    font-size: 20px;
+    font-weight: 600;
+}
+.profile__gender{
+    margin-top: 15px;
+    color:#120345;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.profile__describe{
+    color:#120345 ;
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
