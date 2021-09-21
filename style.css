@@ -60,8 +60,8 @@ textarea{
     width:500px;
     background-color: #b9e810;
     padding:10px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 20px;
+    
 
 }
 .profile__header{
@@ -106,6 +106,7 @@ textarea{
  .profile{
      width: 90%;
      margin:auto;
+     margin-top: 20px;
  }
     
 }
