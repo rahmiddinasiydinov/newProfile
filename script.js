@@ -34,24 +34,18 @@ profile.addEventListener('submit',(event)=>{
   profileDescription.setAttribute('class', 'profile__describe');
  // adding objects  to an array
   createdProfiles.push({
-    id: count++ ,
+    id: count ,
     name:userName,
     job:userJob,
     age:userAge,
     gender:userGender, 
     describe: userDescribe,
   })
-   
   //displayong them on the window
-   profileHeader.textContent = createdProfiles[0].name;
-   profileJob.textContent = createdProfiles[0].job;
-   profileAge.textContent =`Age: ${createdProfiles[0].age}` ;
-   profileGender.textContent = createdProfiles[0].gender;
-   profileDescription.textContent = createdProfiles[0].describe;
-
-  
-  
-  
-  
+   profileHeader.textContent = createdProfiles[count].name;
+   profileJob.textContent = createdProfiles[count].job;
+   profileAge.textContent =`Age: ${createdProfiles[count].age}` ;
+   profileGender.textContent = createdProfiles[count].gender;
+   profileDescription.textContent = createdProfiles[count].describe;
+  count++;
 })
-

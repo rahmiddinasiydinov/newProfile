@@ -60,6 +60,9 @@ textarea{
     width:500px;
     background-color: #b9e810;
     padding:10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
 }
 .profile__header{
     font-size:32px;
